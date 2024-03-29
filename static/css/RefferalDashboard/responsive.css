@@ -1,0 +1,432 @@
+@media screen and (min-width:768px) {
+    .logo {
+        width: 150px;
+        /* Adjust the width as needed */
+        height: auto;
+    }
+    .container {
+
+        height: 100vh;
+        background-size: cover;
+    
+    }
+    
+
+    .toggle-btn {
+        display: none;
+    }
+
+    .try-btn {
+        display: block;
+        background-color: rgba(112, 111, 229, 1);
+        border-radius: 12px;
+        color: white;
+        border: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 40px;
+        padding-left: 40px;
+        cursor: pointer;
+        transition: transform 0.3s ease, font-size 0.3s ease, padding 0.3s ease;
+    }
+
+    .try-btn:hover {
+        transform: scale(1.1);
+    }
+
+    .unorder-list {
+        list-style-type: none;
+        display: flex;
+        width: 40%;
+        overflow: auto;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+
+    }
+
+    .unorder-list li {
+        margin-right: 2.3rem;
+        /* Adjust as needed */
+        color: #1E1F4B;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        line-height: 28px;
+    }
+
+
+    li a {
+        text-decoration: none;
+        color: #1E1F4B;
+    }
+
+    li a:hover {
+        color: orangered
+    }
+
+    .dropdown-menu {
+        display: none;
+    }
+
+    .try-btn2 {
+        display: none;
+    }
+
+    .referal-head {
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+    }
+
+    .input-div {
+        background-color: rgba(249, 250, 251, 1);
+        width: 40%;
+        padding: 12px;
+        border-radius: 12px;
+        display: flex;
+    }
+
+    .input-div input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        width: 85%;
+        margin: auto;
+    }
+    .search-btn {
+        display: block;
+        background-color: rgba(112, 111, 229, 1);
+        width:10%;
+        border-radius: 12px;
+        color:white;
+        border:0px;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-right: 40px;
+        padding-left: 40px;
+        cursor:pointer;
+        transition: transform 0.3s ease, font-size 0.3s ease, padding 0.3s ease;
+    }
+    
+
+    .profile-div {
+        display: flex;
+        justify-content: space-between;
+
+        width: 20%;
+    }
+
+
+    .icon-div {
+        color: orange;
+        background-color: rgba(255, 192, 203, 0.2);
+        width: 20%;
+        border-radius: 20%;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .circle {
+        width: 80%;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+    }
+
+
+    .bellsize {
+        font-size: 5px;
+
+
+    }
+
+    .bell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-css {
+        width: 20%;
+    }
+
+    .user-details {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 12px;
+        justify-content: space-between;
+
+    }
+
+    .profile-sec {
+        display: flex;
+        width: 70%;
+
+    }
+
+    .name-drop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%
+    }
+
+    .profile-div2 {
+        display: none;
+    }
+
+    .name {
+        display: block;
+    }
+
+    .card-trans {
+        background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+        width: 23%;
+
+        margin-bottom: 15px;
+
+        border-radius: 20px;
+        transition: all .3s;
+
+    }
+
+    .card {
+        transition: all .2s;
+        width: 100%;
+        background-size: cover;
+        background: linear-gradient(to left, rgba(71, 118, 230, 1), rgba(142, 84, 233, 1));
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        align-items: center;
+
+    }
+
+    .card:hover {
+        transform: scale(0.98);
+        border-radius: 20px;
+    }
+
+    .card-trans:hover {
+        box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+    }
+
+    .design {
+        Width: 62.07px;
+        Height: 60px;
+    }
+
+    .des {
+        width: 60%;
+
+    }
+
+    .card-des {
+        color: white;
+        font-size: 18px;
+        font-family: "Yantramanav", sans-serif;
+    }
+
+    .card-price {
+        color: white;
+        font-size: 14px;
+        padding-bottom: 8px;
+        font-family: "Yantramanav", sans-serif;
+    }
+    .sec-3{
+        width:80%;
+        margin:auto;
+        background-size: cover;
+        height:1612px;
+        margin-top:89px;
+        padding-left:15px;
+        padding-right:15px;
+        padding-top: 20px;
+        
+        flex-wrap:wrap;
+    }
+
+    .sec3-small {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+
+
+    }
+
+    .sec3-2part {
+        width: 100%;
+        border: 2px dotted rgba(136, 136, 136, 1);
+        margin: auto;
+        margin-top: 45px;
+        border-radius: 8px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .services-head {
+        font-family: "Yantramanav", sans-serif;
+        font-size: 18px;
+        color: rgba(73, 89, 109, 1);
+    }
+
+    .card4 {
+        text-align: center;
+        width:20%;
+
+    }
+
+    .services-para {
+        font-family: "Yantramanav", sans-serif;
+        padding-top:10px;
+        font-size:20px;
+        font-weight:bold;
+        background: linear-gradient(rgba(71, 118, 230, 1), rgba(142, 84, 233, 1));
+        background-clip: text;
+        -webkit-background-clip: text;
+        /* For Safari */
+        color: transparent;
+        /* Hide the text */
+        /* Other styles for the .services-para class */
+
+
+    }
+    .Refr-head{
+       
+        font-size:34px;
+    }
+    .hr-line{
+        width:50%;
+    }
+    .Referral-link-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top:50px;
+     
+    
+    }
+    .Referral-link-div1{
+        
+        width:70%;
+     
+    
+    }
+    .input-referral{
+        font-size:15px;
+        width:80%;
+       
+    }
+    .button-copy{
+        width:15%;
+       
+        padding:10px;
+        border-radius:12px;
+        
+    }
+    .copy-btn{
+        background-color: transparent;
+        color:white;
+        border:none;
+        outline:none;
+    }
+    .button-copy i{
+        color:white;
+       
+    }
+
+    .Referral-link-div2{
+        display: flex;
+        flex-direction: column;
+        width:27%;
+        margin-top:0px;
+    
+    }
+    .link-generator{
+        margin-top:30px;
+    }
+    .input-referral2{
+        font-size:15px;
+        width:70%;
+        padding:8px;
+      
+     
+    
+    }
+    .button-copy2{
+        width:25%;
+      
+        padding:10px;
+       
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+    }
+    .button-copy2 i{
+        color:white;
+       
+    }
+    .sec4{
+        width:70%;
+        height:100vh;
+        margin:auto;
+       margin-top:150px;
+        display:flex;
+        flex-direction:column;
+    }
+    .previousBtn{
+        border:1px solid 
+        rgba(71, 118, 230, 1);
+        background-color: transparent; 
+        width:20%;
+      
+     
+     }
+     .nextBtn{
+         border:1px solid 
+         rgba(71, 118, 230, 1);
+         background-color: transparent; 
+         width:20%;
+      }
+      .pagination li a {
+        display: block;
+        padding: 5px 10px; /* Adjust the padding as needed */
+        text-decoration: none;
+        color: #333; /* Adjust the text color */
+    }
+    .pagination li {
+        margin: 0 5px; /* Adjust the spacing as needed */
+        border: 1px solid #ccc; /* Add border to each pagination item */
+        border-radius: 5px; /* Optional: Add rounded corners */
+    }
+    .entries2{
+        width:60%;
+        display: flex;
+      
+    }
+    .sec5-firstsmall{
+        width:20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+       
+     }
+   
+}
