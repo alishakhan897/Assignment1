@@ -413,6 +413,8 @@
         margin: 0 5px; /* Adjust the spacing as needed */
         border: 1px solid #ccc; /* Add border to each pagination item */
         border-radius: 5px; /* Optional: Add rounded corners */
+
+        
     }
     .entries2{
         width:60%;
